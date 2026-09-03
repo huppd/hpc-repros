@@ -34,8 +34,6 @@ node's driver) rather than a hardware/node limitation.
 ## Files
 
 - `hello.f90` — the reproducer itself.
-- `Makefile` — builds `hello.f90` against whatever `mpif90` is currently
-  active (`make FC=mpif90`).
 - `repro.sbatch` / `repro_v8.sbatch` — SLURM job scripts for the two
   environments.
 - `run_both.sh` — builds and submits both variants in one go (see below).
