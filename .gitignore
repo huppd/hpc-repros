@@ -1,0 +1,7 @@
+hello_uenv
+hello_v8
+*.o
+*.mod
+crash_uenv_icon-26.7-rc1.out.*
+success_mch-environment-v8.out.*
+run_both_test.log

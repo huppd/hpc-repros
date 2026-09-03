@@ -1,0 +1,94 @@
+hello_uenv: gtlt_cuda_setup.c:97: gtlt_cuda_init: Assertion `gtlt_cuda_gdr_handle != NULL' failed.
+Error: abort
+   rax 0x0000000000000000, rbx 0x000000000001f143, rcx 0x00001497bce93dfc
+   rdx 0x0000000000000006, rsp 0x00007ffe4d1fdb10, rbp 0x00001497bee07000
+   rsi 0x000000000001f143, rdi 0x000000000001f143, r8  0x000000003dd5f010
+   r9  0x0000000000000007, r10 0x0000000000000008, r11 0x0000000000000246
+hello_uenv: gtlt_cuda_setup.c:97: gtlt_cuda_init: Assertion `gtlt_cuda_gdr_handle != NULL' failed.
+Error: abort
+   rax 0x0000000000000000, rbx 0x000000000001f144, rcx 0x000015408fa93dfc
+   rdx 0x0000000000000006, rsp 0x00007fff2aeea1a0, rbp 0x0000154090883000
+   rsi 0x000000000001f144, rdi 0x000000000001f144, r8  0x000000000545c010
+   r9  0x0000000000000007, r10 0x0000000000000008, r11 0x0000000000000246
+   r12 0x00001540923d631f, r13 0x0000000000000006, r14 0x00001540923d6331
+   r15 0x00007fff2aeea3b4
+hello_uenv: gtlt_cuda_setup.c:97: gtlt_cuda_init: Assertion `gtlt_cuda_gdr_handle != NULL' failed.
+Error: abort
+   rax 0x0000000000000000, rbx 0x000000000001f145, rcx 0x00001500d5c93dfc
+   rdx 0x0000000000000006, rsp 0x00007ffe314c9910, rbp 0x00001500d6a77000
+   rsi 0x000000000001f145, rdi 0x000000000001f145, r8  0x00000000124b8010
+   r9  0x0000000000000007, r10 0x0000000000000008, r11 0x0000000000000246
+   r12 0x00001500d86bb31f, r13 0x0000000000000006, r14 0x00001500d86bb331
+   r15 0x00007ffe314c9b24
+hello_uenv: gtlt_cuda_setup.c:97: gtlt_cuda_init: Assertion `gtlt_cuda_gdr_handle != NULL' failed.
+Error: abort
+   rax 0x0000000000000000, rbx 0x000000000001f146, rcx 0x000014a7be693dfc
+   rdx 0x0000000000000006, rsp 0x00007ffefc98c1b0, rbp 0x000014a7bf461000
+   rsi 0x000000000001f146, rdi 0x000000000001f146, r8  0x0000000026586010
+   r9  0x0000000000000007, r10 0x0000000000000008, r11 0x0000000000000246
+   r12 0x000014a7c10a331f, r13 0x0000000000000006, r14 0x000014a7c10a3331
+   r15 0x00007ffefc98c3c4
+   r12 0x00001497bf7b131f, r13 0x0000000000000006, r14 0x00001497bf7b1331
+   r15 0x00007ffe4d1fdd24
+  /lib64/libc.so.6(+0x57900) [0x1497bce42900]
+  /lib64/libc.so.6(+0x57900) [0x15408fa42900]
+  /lib64/libc.so.6(+0x57900) [0x14a7be642900]
+  /lib64/libc.so.6(+0x57900) [0x1500d5c42900]
+  /lib64/libc.so.6(+0xa8dfc) [0x14a7be693dfc]
+  /lib64/libc.so.6(+0xa8dfc) [0x15408fa93dfc]
+  /lib64/libc.so.6(+0xa8dfc) [0x1497bce93dfc]
+  /lib64/libc.so.6(+0xa8dfc) [0x1500d5c93dfc]
+  /lib64/libc.so.6(raise+0x14) [0x14a7be642842]
+  /lib64/libc.so.6(raise+0x14) [0x15408fa42842]
+  /lib64/libc.so.6(raise+0x14) [0x1497bce42842]
+  /lib64/libc.so.6(raise+0x14) [0x1500d5c42842]
+  /lib64/libc.so.6(abort+0xd5) [0x14a7be62a5cf]
+  /lib64/libc.so.6(abort+0xd5) [0x15408fa2a5cf]
+  /lib64/libc.so.6(abort+0xd5) [0x1497bce2a5cf]
+  /lib64/libc.so.6(abort+0xd5) [0x1500d5c2a5cf]
+  /lib64/libc.so.6(+0x3f4e7) [0x14a7be62a4e7]
+  /lib64/libc.so.6(+0x3f4e7) [0x15408fa2a4e7]
+  /lib64/libc.so.6(+0x3f4e7) [0x1497bce2a4e7]
+  /lib64/libc.so.6(+0x3f4e7) [0x1500d5c2a4e7]
+  /lib64/libc.so.6(+0x4fb32) [0x15408fa3ab32]
+  /lib64/libc.so.6(+0x4fb32) [0x14a7be63ab32]
+  /lib64/libc.so.6(+0x4fb32) [0x1497bce3ab32]
+  /lib64/libc.so.6(+0x4fb32) [0x1500d5c3ab32]
+  /user-environment/linux-zen3/cray-gtl-9.1.0-jdlrf2se4itdwc2dvq65yj6cl7kzqnkt/lib/libmpi_gtl_cuda.so.0(+0x1e183) [0x1540923d5183]
+  /user-environment/linux-zen3/cray-gtl-9.1.0-jdlrf2se4itdwc2dvq65yj6cl7kzqnkt/lib/libmpi_gtl_cuda.so.0(+0x1e183) [0x14a7c10a2183]
+  /user-environment/linux-zen3/cray-gtl-9.1.0-jdlrf2se4itdwc2dvq65yj6cl7kzqnkt/lib/libmpi_gtl_cuda.so.0(+0x1e183) [0x1497bf7b0183]
+  /user-environment/linux-zen3/cray-gtl-9.1.0-jdlrf2se4itdwc2dvq65yj6cl7kzqnkt/lib/libmpi_gtl_cuda.so.0(+0x1e183) [0x1500d86ba183]
+  /user-environment/linux-zen3/cray-gtl-9.1.0-jdlrf2se4itdwc2dvq65yj6cl7kzqnkt/lib/libmpi_gtl_cuda.so.0(mpix_gtl_init+0x12a) [0x1540923bae6a]
+  /user-environment/linux-zen3/cray-gtl-9.1.0-jdlrf2se4itdwc2dvq65yj6cl7kzqnkt/lib/libmpi_gtl_cuda.so.0(mpix_gtl_init+0x12a) [0x14a7c1087e6a]
+  /user-environment/linux-zen3/cray-gtl-9.1.0-jdlrf2se4itdwc2dvq65yj6cl7kzqnkt/lib/libmpi_gtl_cuda.so.0(mpix_gtl_init+0x12a) [0x1497bf795e6a]
+  /user-environment/linux-zen3/cray-gtl-9.1.0-jdlrf2se4itdwc2dvq65yj6cl7kzqnkt/lib/libmpi_gtl_cuda.so.0(mpix_gtl_init+0x12a) [0x1500d869fe6a]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(+0x5c93b6) [0x14a7c16a73b6]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(+0x5c93b6) [0x1540929da3b6]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(+0x5c93b6) [0x1497bfdb53b6]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(+0x5c93b6) [0x1500d8cbf3b6]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(+0x5c9bb5) [0x14a7c16a7bb5]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(+0x5c9bb5) [0x1540929dabb5]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(+0x5c9bb5) [0x1497bfdb5bb5]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(+0x5c9bb5) [0x1500d8cbfbb5]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(MPI_Init+0x30) [0x14a7c11f2380]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(MPI_Init+0x30) [0x1500d880a380]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(MPI_Init+0x30) [0x1497bf900380]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpi_nvidia.so.12(MPI_Init+0x30) [0x154092525380]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpifort_nvidia.so.12(PMPI_INIT+0x20) [0x14a7c38191f0]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpifort_nvidia.so.12(PMPI_INIT+0x20) [0x154094b4c1f0]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpifort_nvidia.so.12(PMPI_INIT+0x20) [0x1500dae311f0]
+  /user-environment/linux-zen3/cray-mpich-9.1.0-aoeenuel44ynngj4dj3x5w3nvldmkilj/lib/libmpifort_nvidia.so.12(PMPI_INIT+0x20) [0x1497c1f271f0]
+  /scratch/mch/huppd/icon-nwp/master_linard/mpi_repro_test/./hello_uenv() [0x400fb1]
+  /scratch/mch/huppd/icon-nwp/master_linard/mpi_repro_test/./hello_uenv() [0x400fb1]
+  /scratch/mch/huppd/icon-nwp/master_linard/mpi_repro_test/./hello_uenv() [0x400fb1]
+  /scratch/mch/huppd/icon-nwp/master_linard/mpi_repro_test/./hello_uenv() [0x400fb1]
+  /lib64/libc.so.6(+0x40e6c) [0x14a7be62be6c]
+  /lib64/libc.so.6(+0x40e6c) [0x1500d5c2be6c]
+  /lib64/libc.so.6(+0x40e6c) [0x1497bce2be6c]
+  /lib64/libc.so.6(+0x40e6c) [0x15408fa2be6c]
+  /lib64/libc.so.6(__libc_start_main+0x87) [0x14a7be62bf35]
+  /lib64/libc.so.6(__libc_start_main+0x87) [0x1500d5c2bf35]
+  /lib64/libc.so.6(__libc_start_main+0x87) [0x1497bce2bf35]
+  /lib64/libc.so.6(__libc_start_main+0x87) [0x15408fa2bf35]
+srun: error: nid002028: tasks 0-3: Exited with exit code 127
+srun: Terminating StepId=107242.0
