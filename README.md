@@ -1,13 +1,8 @@
 # hpc-repros
 
-A collection of minimal, standalone reproducers for HPC toolchain bugs
-(compilers, MPI, GPU/driver stack, ...) found while working on real
-applications, stripped down to the smallest case that still shows the
-problem.
-
-Each subdirectory is one self-contained case: its own README, its own build
-and run instructions, no dependency on the application it was originally
-found in.
+Minimal, standalone reproducers for HPC toolchain bugs (compilers, MPI,
+GPU/driver stack, ...), stripped down to the smallest case that still shows
+the problem. Each subdirectory is one self-contained case.
 
 ## Cases
 
@@ -17,5 +12,4 @@ found in.
 
 ## License
 
-MIT, see [LICENSE](LICENSE) (applies to all cases unless a case says
-otherwise).
+MIT, see [LICENSE](LICENSE).
