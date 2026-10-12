@@ -9,6 +9,7 @@ the problem. Each subdirectory is one self-contained case.
 | Case | Symptom | Root cause area |
 |---|---|---|
 | [`mpi-init-gtl-gdr/`](mpi-init-gtl-gdr/) | `MPI_Init` aborts with `gtlt_cuda_init: Assertion 'gtlt_cuda_gdr_handle != NULL' failed` when GPU-aware MPI is enabled | Cray MPICH GTL / GPUDirect-RDMA |
+| [`gpu-mpi-no-device-ranks/`](gpu-mpi-no-device-ranks/) | `MPI_Init` hangs when only some ranks have a visible CUDA device and GPU-aware MPI is enabled (regression 8.1.30 -> 9.1.0) | Cray MPICH GTL |
 
 ## License
 
